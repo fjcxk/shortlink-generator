@@ -8,9 +8,9 @@ app = Flask(__name__)
 
 # MySQL 配置
 db_config = {
-    'host': '172.18.0.2',
+    'host': 'mysql_host',
     'user': 'root',
-    'password': '1234',
+    'password': 'mysql_password',
     'database': 'shortlink',
     'charset': 'utf8mb4',
     'collation': 'utf8mb4_bin',
