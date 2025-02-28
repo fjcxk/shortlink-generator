@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>短链生成器</title>
+</head>
+<body>
+    <h1>短链生成器</h1>
+    <form method="POST" action="/">
+        <label for="long_url">输入长链接：</label>
+        <input type="text" id="long_url" name="long_url" required>
+        <button type="submit">生成短链接</button>
+    </form>
+
+    {% if short_url %}
+        <p>你的短链接：<a href="{{ short_url }}">{{ short_url }}</a></p>
+    {% endif %}
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Test</title>
+</head>
+<body>
+    <h1>Hello from Flask!</h1>
+    <p>This is the simplest Flask template rendering example.</p>
+</body>
+</html> -->

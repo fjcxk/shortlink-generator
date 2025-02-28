@@ -1,0 +1,39 @@
+.venv/
+__pycache__/
+.vscode/
+*.pyc
+.cache
+.dotnet
+.gnupg
+.vscode-server
+.bash_history
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 环境变量
+.env
+secrets.ini
+
+# 数据库数据（Docker相关）
+data/
+
+# IDE
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+test.py
+python-mysql.py
+mysql.tar
+docker-compose.yml
+.rediscli_history
+.python_history
+.profile
+.motd_shown
+.lesshst
+.bashrc
+.viminfo
