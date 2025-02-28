@@ -37,7 +37,7 @@ def index():
             conn = mysql.connector.connect(**db_config)
             cursor = conn.cursor()
 
-            # 第一步：查询长链接是否已存在
+            #查询长链接是否已存在
             cursor.execute(
                 'SELECT short_code FROM links WHERE long_url = %s LIMIT 1',
                 (long_url,)
