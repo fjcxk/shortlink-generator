@@ -36,4 +36,7 @@ docker-compose.yml
 .motd_shown
 .lesshst
 .bashrc
-.viminfo
+.viminfo.venv/
+__pycache__/
+.vscode/
+*.pyc
